@@ -43,3 +43,64 @@
  1711  history
  1712  tail --help
  1713  history | tail -n 45 >> history.txt
+ 1667  ls
+ 1668  mkdir git-majonez
+ 1669  ls
+ 1670  cd git-majonez/
+ 1671  ls
+ 1672  clear
+ 1673  git init
+ 1674  vim main.cpp
+ 1675  cat main.cpp 
+ 1676  vim main.cpp 
+ 1677  git add main.cpp 
+ 1678  git commit -m "Initial commit"
+ 1679  vim main.cpp 
+ 1680  git add main.cpp 
+ 1681  git commit -m "Farewell changed"
+ 1682  git status
+ 1683  gitl
+ 1684  git remote add origin https://github.com/iLoveGarlic/git-majonez.git
+ 1685  git push -u origin main
+ 1686  git checkout -b cs
+ 1687  git branch
+ 1688  gitk &
+ 1689  git branch
+ 1690  git reset --hard 6c9189a1e2d50d5a089b90b0391b0c9bf49a33c4
+ 1691  git log
+ 1692  gitl
+ 1693  git status
+ 1694  vim main.cpp 
+ 1695  git status
+ 1696  git add main.cpp 
+ 1697  git commit -m "Greetings"
+ 1698  git push origin cs
+ 1699  git branch 
+ 1700  git checkout main
+ 1701  git status
+ 1702  clear
+ 1703  git merge cs
+ 1704  git status
+ 1705  vim main.cpp 
+ 1706  git status
+ 1707  git add main.cpp 
+ 1708  git status
+ 1709  git commit
+ 1710  git status
+ 1711  history
+ 1712  tail --help
+ 1713  history | tail -n 45 >> history.txt
+ 1714  ls
+ 1715  cat history.txt 
+ 1716  git add history.txt 
+ 1717  git status
+ 1718  git commit -m "History added"
+ 1719  gitl
+ 1720  git push
+ 1721  ls
+ 1722  clear
+ 1723  pwd
+ 1724  ls
+ 1725  cat history.txt 
+ 1726  history
+ 1727  history | tail -n 61 >> history.txt
